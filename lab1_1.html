@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Робота з діалоговими вікнами</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <script>
+            "use strict";
+            alert("Гайда знайомитись!");
+            const answer=confirm("Розпочнімо :)");
+            if(answer){
+                const name=prompt("Як вас звати?","");
+                const age=prompt("Скільки вам років? :)","");
+                const grad=prompt("Де ви навчаєтесь? :)","");
+                alert(name + ", приємно познайомитись!");
+            }
+            else alert ("Шкода. До нових зустрічей!");
+        </script>
+        <div class="return">
+            <a href="index.html" class="button">Повернутись на головну</a>
+        </div>
+    </body>
+</html>

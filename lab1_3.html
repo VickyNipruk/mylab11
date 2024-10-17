@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Лінійні алгоритми</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <script>
+            "use strict";
+            alert("Калькулятор, який допоможе порахувати площу бічної і повної поверхонь циліндра");
+            let h=parseInt(prompt("Введіть висоту циліндра h", ""));
+            let r=parseInt(prompt("Введіть радіус циліндра r", ""));
+            let a = 2*Math.PI*r*h;
+            let b=Math.PI*r*r;
+            let c=2*b+a;
+            alert("Площа бічної поверхні циліндра =" + a.toFixed(2));
+            alert("Площа повної поверхні циліндра =" + c.toFixed(2));
+        </script>
+        <div class="return">
+            <a href="index.html" class="button">Повернутись на головну</a>
+        </div>
+    </body>
+</html>
